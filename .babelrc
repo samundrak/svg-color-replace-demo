@@ -1,0 +1,14 @@
+{
+  "presets": ["react"],
+  "plugins": [
+    "transform-class-properties",
+    [
+      "transform-regenerator",
+      {
+        "asyncGenerators": false,
+        "generators": false,
+        "async": false
+      }
+    ]
+  ]
+}
